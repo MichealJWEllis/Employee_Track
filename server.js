@@ -1,7 +1,7 @@
 const express = require('express')
 const inquirer = require('inquirer')
 // const apiRoutes = require('./routes/apiRoutes')
-const db = require('./db/connection')
+const db = require('./config/connection')
 const figlet = require('figlet')
 
 const PORT = process.env.PORT || 8082;
